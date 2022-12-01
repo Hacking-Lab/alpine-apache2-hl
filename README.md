@@ -14,13 +14,12 @@ This is the template alpine apache2 web server image of the Hacking-Lab CTF syst
 * serving files by apache2 in /opt/www
 
 ## Build & Test
-1. `bash build.sh`
-2. `docker-compse -f docker-compose-local.yml up`
-3. browse to http://localhost:8000/
+1 `docker-compse -f docker-compose.yml up`
+2. browse to http://localhost:8000/
 
 ## Testing only (without building)
-1. `docker pull hackinglab/alpine-apache2:latest`
-2. `docker-compose -f docker-compose-local.yml up`
+1. `docker pull hackinglab/alpine-apache2-hl:latest`
+2. `docker-compose -f docker-compose.yml up`
 3. browse to http://localhost:8000/
 
 
