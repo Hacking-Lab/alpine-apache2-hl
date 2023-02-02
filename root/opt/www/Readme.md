@@ -3,7 +3,7 @@
 This content ist provided by a `docker service` based on Alpine Linux apache2 web server from the Hacking-Lab CTF system. 
 
 ## Base Image
-* hackinglab/alpine-base
+* hackinglab/alpine-base-hl
 
 ## Specifications
 * with s6 startup handling in `/etc/cont-init.d/` and `/etc/services.d/<service>/run`
