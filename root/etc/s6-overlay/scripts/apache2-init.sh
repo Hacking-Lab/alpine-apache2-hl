@@ -4,4 +4,3 @@ source /etc/hluser
 sed -i -e "s/\/var\/www\/localhost\/htdocs/\/opt\/www/g" /etc/apache2/httpd.conf
 rm -r /var/www/localhost/htdocs
 ln -s /opt/www /var/www/localhost/htdocs
-
